@@ -20,6 +20,8 @@ This folder contains resources and files related to Cisco commands for Computer 
 | `banner motd "hallo"`                     | Stelt een Message of the Day (MOTD)-banner in met de tekst "hallo".   |
 | `copy run start`                          | Slaat de huidige configuratie op in het startup-config-bestand.       |
 
+## IP address
+
 | Commando                                  | Uitleg                                                                |
 |-------------------------------------------|-----------------------------------------------------------------------|
 | `int g0/0`                                | Selecteert de interface GigabitEthernet0/0 voor configuratie.         |
