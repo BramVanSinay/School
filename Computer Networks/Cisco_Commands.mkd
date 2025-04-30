@@ -19,3 +19,14 @@ This folder contains resources and files related to Cisco commands for Computer 
 | `service password-encryption`             | Versleutelt alle wachtwoorden in de configuratie.                     |
 | `banner motd "hallo"`                     | Stelt een Message of the Day (MOTD)-banner in met de tekst "hallo".   |
 | `copy run start`                          | Slaat de huidige configuratie op in het startup-config-bestand.       |
+
+| Commando                                  | Uitleg                                                                |
+|-------------------------------------------|-----------------------------------------------------------------------|
+| `int g0/0`                                | Selecteert de interface GigabitEthernet0/0 voor configuratie.         |
+| `description LAN connection to S1`        | Voegt een beschrijving toe aan de interface (voor documentatie).      |
+| `ip address 192.168.10.1 255.255.255.0`   | Stelt een IP-adres en subnetmasker in voor de interface.              |
+| `no shut`                                 | Activeert de interface (zet deze aan).                                |
+| `int g0/1`                                | Selecteert de interface GigabitEthernet0/1 voor configuratie.         |
+| `description LAN connection to S2`        | Voegt een beschrijving toe aan de interface (voor documentatie).      |
+| `show ip int brief`                       | Toont een overzicht van alle interfaces en hun status.                |
+| `copy run start`                          | Slaat de huidige configuratie op in het startup-config-bestand.       |
