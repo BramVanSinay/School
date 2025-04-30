@@ -1,0 +1,21 @@
+# Cisco Commands
+
+This folder contains resources and files related to Cisco commands for Computer Networks.
+
+## Folder Structure
+
+| Commando                                  | Uitleg                                                                |
+|-------------------------------------------|-----------------------------------------------------------------------|
+| `enable`                                  | Schakelt over naar de privileged EXEC-modus.                          |
+| `config t`                                | Gaat naar de globale configuratiemodus.                               |
+| `hostname Room-146`                       | Wijzigt de hostname van de switch naar "Room-146".                    |
+| `interface vlan1`                         | Selecteert VLAN 1 voor configuratie.                                  |
+| `ip address 172.16.5.40 255.255.255.0`    | Stelt een IP-adres en subnetmasker in voor VLAN 1.                    |
+| `no shutdown`                             | Activeert de interface (zet deze aan).                                |
+| `line con 0`                              | Selecteert de consolelijn voor configuratie.                          |
+| `password xAw6k`                          | Stelt een wachtwoord in voor toegang via de console.                  |
+| `login`                                   | Vereist een wachtwoord voor toegang via de console.                   |
+| `enable secret 6EBUp`                     | Stelt een versleuteld wachtwoord in voor de privileged EXEC-modus.    |
+| `service password-encryption`             | Versleutelt alle wachtwoorden in de configuratie.                     |
+| `banner motd "hallo"`                     | Stelt een Message of the Day (MOTD)-banner in met de tekst "hallo".   |
+| `copy run start`                          | Slaat de huidige configuratie op in het startup-config-bestand.       |
