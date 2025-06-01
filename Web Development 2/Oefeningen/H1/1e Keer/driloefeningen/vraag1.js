@@ -6,4 +6,4 @@
 
 let WelcomeMessage = 'Hallo';
 yourName = prompt('Hoe heet je?');
-console.log(WelcomeMessage + ' ' + yourName);
+console.log(`${WelcomeMessage} ${yourName}`);

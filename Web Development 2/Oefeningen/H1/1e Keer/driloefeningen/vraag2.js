@@ -7,3 +7,7 @@
  */
 'use strict';
 const orderNumber = '14284-4859';
+let verdeeld = orderNumber.split("-");
+let laatsteNummer = Number(verdeeld[verdeeld.length-1])+10;
+
+console.log(`Het resultaat is ${laatsteNummer}`)

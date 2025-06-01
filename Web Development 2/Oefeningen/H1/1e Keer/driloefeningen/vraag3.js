@@ -16,3 +16,12 @@
  *    ♥♥♥♥
  *    END PROGRAM
  */
+
+let aantalHartjes 
+let stringHartjes = "";
+while(isNaN(aantalHartjes)) aantalHartjes = Number(prompt("Geef een geheel getal in."));
+
+for (let i = 0;i<aantalHartjes;i++){
+    stringHartjes += "♥";
+    console.log(stringHartjes);
+}
